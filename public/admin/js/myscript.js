@@ -33,6 +33,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("a#del_img_demo").on('click', function () {
+
         // tao dg dan
         //alert(111);
         // dg dan toi file xoa trong web.
@@ -51,6 +52,7 @@ $(document).ready(function () {
         var rid= $(this).parent().find("img").attr("id");
         //alert(rid);
          // bat dau xoa
+
         $.ajax({
             url:url + idHinh,
             type:'GET',

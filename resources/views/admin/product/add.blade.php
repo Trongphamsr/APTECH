@@ -1,4 +1,4 @@
-s@extends('admin.master')
+@extends('admin.master')
 @section('content')
     {{--dung value(old('name'))-> dể kiểm tra khi submit nếu có nỗi vẫn giữ nguyên giá trị ta vừa chọn--}}
     <div class="col-lg-12">

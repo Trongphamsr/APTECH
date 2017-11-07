@@ -162,6 +162,7 @@ class Product_controller extends Controller
 
          }
         */
+
         if(!empty(Request::file('fEditDetail'))){
             foreach (Request::file('fEditDetail') as $file){
                 $product_img= new product_image();
