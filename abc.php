@@ -7,10 +7,6 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
-	<p>Hello world sfdsfsfssd  2222</p>
-
-
-	sssss
-	xxxxx
+	
 </body>
 </html>
